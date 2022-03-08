@@ -1,0 +1,45 @@
+* {
+  margin: 2px;
+}
+body {
+  background-color: rgba(128, 128, 128, 0.205);
+}
+nav {
+  /* border: 1px solid; */
+  text-align: center;
+  font-size: 30px;
+  background-color: rgba(128, 128, 128, 0.308);
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+.satu {
+  width: 30%;
+  background-color: rgba(128, 128, 128, 0.308);
+}
+.box {
+  margin-left: 20px;
+  /* border: 1px solid; */
+  /* width: max-content; */
+  text-align: center;
+}
+.box1 {
+  display: flex;
+  text-align: center;
+  line-height: 100px;
+}
+.box2 {
+  border: 1px solid;
+  width: 80%;
+  height: 100px;
+  background-color: white;
+}
+.dua {
+  width: 35%;
+  background-color: rgba(128, 128, 128, 0.308);
+  display: ;
+}
+.balok {
+  text-align: center;
+}
