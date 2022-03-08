@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SP2.1</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
     <nav><h1>Tugas Sprint 1.4</h1></nav>
@@ -20,21 +21,21 @@
           </div>
         </div>
         <h4>
-          Buatlah fungsi hitungLuasPersegiPanjang dengan 2 parameter panjang dan
-          lebar, fungsi tersebut meneruskan integer sebagai hasil perhitungan.
-          Buatlah dengan keluaran pada halaman web seperti di bawah ini. Simpan
-          dengan nama latihan-1.js di dalam direktori SP2.1 panjang : lebar :
-          Luas Persegi Panjang :
+          Buatlah fungsi hitung Luas Persegi Panjang dengan 2 parameter panjang
+          dan lebar, fungsi tersebut meneruskan integer sebagai hasil
+          perhitungan. Buatlah dengan keluaran pada halaman web seperti di bawah
+          ini. Simpan dengan nama latihan-1.js di dalam direktori SP2.1 panjang
+          : lebar : Luas Persegi Panjang :
         </h4>
         <br />
         <h2>Diketahui :</h2>
         <h4>
-          function persegipanjang(p, l) { <br />
-          &nbsp &nbsp var panjangPersegi; <br />
+          function persegiPanjang (p, l) { <br />
+          &nbsp &nbsp var panjangPersegi ; <br />
           &nbsp &nbsp var lebarPersegi; <br />
           &nbsp &nbsp return p * l; <br />
           } <br />
-          document.write(persegipanjang(14, 6));
+          document.write (persegiPanjang (14, 6));
           <br />
         </h4>
         <h2>jawaban :</h2>
@@ -46,30 +47,31 @@
           cm
         </h4>
       </div>
+      <br />
       <div class="dua">
         <h1>Soal no 5 SP2.1</h1>
-        <div class="balok"><img src="1.png" alt="" /></div>
+        <div class="balok"><img class="image" src="1.png" alt="" /></div>
         <h4>
-          Buatlah fungsi hitungVolumeDanLuasPermukaanBalok dengan 3 parameter
-          panjang , lebar dan tinggi , fungsi tersebut meneruskan integer
-          sebagai hasil perhitungan. Buatlah dengan keluaran pada halaman web
-          seperti di bawah ini. Simpan dengan nama latihan-2.js di dalam
-          direktori SP2.1 panjang : lebar : tinggi: Volume Balok : Luas
+          Buatlah fungsi hitung Volume Dan Luas Permukaan Balok dengan 3
+          parameter panjang , lebar dan tinggi , fungsi tersebut meneruskan
+          integer sebagai hasil perhitungan. Buatlah dengan keluaran pada
+          halaman web seperti di bawah ini. Simpan dengan nama latihan-2.js di
+          dalam direktori SP2.1 panjang : lebar : tinggi: Volume Balok : Luas
           permukaan Balok : <br />
         </h4>
         <br />
         <h2>Diketahui :</h2>
         <h4>
           function balok(p, l, t) { <br />
-          &nbsp &nbsp document.write("p = ", p); <br />
-          &nbsp &nbsp document.write("l = ", l); <br />
-          &nbsp &nbsp document.write("t = ", t); <br />
+          &nbsp &nbsp document.write ("p = ", p); <br />
+          &nbsp &nbsp document.write ("l = ", l); <br />
+          &nbsp &nbsp document.write ("t = ", t); <br />
           &nbsp &nbsp var volume = p * l * t; <br />
           &nbsp &nbsp var luas1 = 2 * p * l + 2 * p * t + 2 * l * t; <br />
-          &nbsp &nbsp document.write("Volume balok = p x l x t = ", volume, "
+          &nbsp &nbsp document.write ("Volume balok = p x l x t = ", volume, "
           cm3");
           <br />
-          &nbsp &nbsp document.write( "Luas permukaan balok =
+          &nbsp &nbsp document.write ( "Luas permukaan balok =
           (2.p.l)+(2.p.t)+(2.l.t) = ", &nbsp luas1, " m3" ); <br />
           } <br />
           balok(10, 6, 5); <br />

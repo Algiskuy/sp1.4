@@ -3,6 +3,8 @@
 }
 body {
   background-color: rgba(128, 128, 128, 0.205);
+  margin: auto;
+  max-width: 1800px;
 }
 nav {
   /* border: 1px solid; */
@@ -17,6 +19,7 @@ main {
 .satu {
   width: 30%;
   background-color: rgba(128, 128, 128, 0.308);
+  padding: 10px;
 }
 .box {
   margin-left: 20px;
@@ -39,7 +42,11 @@ main {
   width: 35%;
   background-color: rgba(128, 128, 128, 0.308);
   display: ;
+  padding: 10px;
 }
 .balok {
   text-align: center;
+}
+.image {
+  width: 50%;
 }
